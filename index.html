@@ -44,7 +44,7 @@
     <section class="bg-blue-700 text-white py-12 sm:py-20 text-center">
         <div class="container mx-auto px-4">
             <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">Welcome to My Portfolio</h1>
-            <p class="text-base sm:text-lg mb-6">I'm Krrish Verma, a passionate developer creating innovative solutions.</p>
+            <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF7F11&center=true&vCenter=true&width=435&lines=Hardware+Developer;PCB+Designer;Technology+Freak;Founder+%40BurnInBench" alt="Typing Animation" class="mx-auto mb-6">
             <a href="#contact" class="bg-white text-blue-700 px-4 py-2 sm:px-6 sm:py-3 rounded-full font-semibold hover:bg-gray-200 text-sm sm:text-base">Get in Touch</a>
         </div>
     </section>
@@ -52,11 +52,14 @@
     <!-- About Section -->
     <section id="about" class="py-12 sm:py-16">
         <div class="container mx-auto px-4">
-            <h2 class="text-2xl sm:text-3xl font-bold text-center mb-6 sm:mb-8">About Me</h2>
+            <div class="flex items-center justify-center mb-6 sm:mb-8">
+                <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3ZyaW1sMnRlMDZvazJmbTNqNTN0YnRxa2syeXJ6a2ZrdWpsbGR1MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/3ohhwMDyS6rv3sB8yI/giphy.gif" alt="Hello World GIF" class="w-8 h-8 mr-2">
+                <h2 class="text-2xl sm:text-3xl font-bold text-center">About Me</h2>
+            </div>
             <div class="flex flex-col items-center justify-center gap-6 sm:gap-8">
                 <img src="src/img/profile.JPG" alt="Krrish Verma" class="w-32 h-32 sm:w-48 sm:h-48 rounded-full object-cover shadow-lg">
                 <p class="text-base sm:text-lg text-gray-700 max-w-2xl text-center">
-                    Hi I'm Krrish Verma, a passionate maker and hardware developer based in Chennai. With a strong foundation in PCB design, embedded systems, and prototyping, I thrive on building tangible, real-world solutions. My interests span IoT, EV hardware, sensor integration, and telematics. I've worked with platforms like Arduino, ESP32, Raspberry Pi, STM32, and enjoy pushing the boundaries of electronics design.
+                    Hi, I'm Krrish Verma, a passionate maker and hardware developer based in Chennai. With a strong foundation in PCB design, embedded systems, and prototyping, I thrive on building tangible, real-world solutions. My interests span IoT, EV hardware, sensor integration, and telematics. I've worked with platforms like Arduino, ESP32, Raspberry Pi, STM32, and enjoy pushing the boundaries of electronics design.
                 </p>
             </div>
         </div>
@@ -66,19 +69,45 @@
     <section id="skills" class="bg-gray-200 py-12 sm:py-16">
         <div class="container mx-auto px-4">
             <h2 class="text-2xl sm:text-3xl font-bold text-center mb-6 sm:mb-8">Skills</h2>
-            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6">
-                <div class="bg-white p-4 sm:p-6 rounded-lg shadow-md text-center">
-                    <h3 class="text-lg sm:text-xl font-semibold mb-2">Hardware & Electronics</h3>
-                    <p class="text-gray-600 text-sm sm:text-base">PCB Design (KiCad, EasyEDA, Altium), Circuit Design (Analog & Digital), Sensor Integration, Power Electronics Basics</p>
-                </div>
-                <div class="bg-white p-4 sm:p-6 rounded-lg shadow-md text-center">
-                    <h3 class="text-lg sm:text-xl font-semibold mb-2">Embedded & IoT</h3>
-                    <p class="text-gray-600 text-sm sm:text-base">Arduino, ESP32, STM32, Communication Protocols (CAN Bus, UART, I2C, SPI, RS-485), GPS Integration, SIM Module Integration, Telematics</p>
-                </div>
-                <div class="bg-white p-4 sm:p-6 rounded-lg shadow-md text-center">
-                    <h3 class="text-lg sm:text-xl font-semibold mb-2">Tools & Prototyping</h3>
-                    <p class="text-gray-600 text-sm sm:text-base">Multimeter, Oscilloscope, Soldering, 3D Printing, MATLAB, 3D Modelling for Enclosures using Fusion 360 & Solidworks</p>
-                </div>
+            <!-- Knowledge Base Code Block -->
+            <div class="bg-gray-800 text-white p-4 sm:p-6 rounded-lg shadow-md mb-6 sm:mb-8">
+                <pre class="text-sm sm:text-base font-mono">
+const char* expertise[] = {
+    "Arduino Ecosystem",
+    "ESP32 Development",
+    "IoT Solutions",
+    "PCB Design & Fabrication",
+    "Embedded C/C++",
+    "Hardware Prototyping",
+    "MQTT & Cloud Integration",
+    "Sensor Interfacing",
+    "FreeRTOS",
+    "Raspberry Pi",
+    "STM32 Development",
+    "MicroPython Programming",
+    "Firebase Integration",
+    "AWS IoT Services",
+    "3D Printing & Design"
+};
+                </pre>
+            </div>
+            <!-- Tech Stack Badges -->
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 sm:gap-6">
+                <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white" alt="Arduino" />
+                <img src="https://img.shields.io/badge/PlatformIO-FF7F11?style=for-the-badge&logo=platformio&logoColor=white" alt="PlatformIO" />
+                <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
+                <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
+                <img src="https://img.shields.io/badge/ESP32-000000?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32" />
+                <img src="https://img.shields.io/badge/KiCad-314CB0?style=for-the-badge&logo=kicad&logoColor=white" alt="KiCad" />
+                <img src="https://img.shields.io/badge/Altium_Designer-A5915F?style=for-the-badge&logo=altium-designer&logoColor=white" alt="Altium Designer" />
+                <img src="https://img.shields.io/badge/EasyEDA-E34F26?style=for-the-badge&logo=easyeda&logoColor=white" alt="EasyEDA" />
+                <img src="https://img.shields.io/badge/Fusion_360-0696D7?style=for-the-badge&logo=autodesk&logoColor=white" alt="Fusion 360" />
+                <img src="https://img.shields.io/badge/IoT-FF6F00?style=for-the-badge&logo=iot&logoColor=white" alt="IoT" />
+                <img src="https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=mqtt&logoColor=white" alt="MQTT" />
+                <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+                <img src="https://img.shields.io/badge/FreeRTOS-00A1D6?style=for-the-badge&logo=freertos&logoColor=white" alt="FreeRTOS" />
+                <img src="https://img.shields.io/badge/Raspberry_Pi-C51A4A?style=for-the-badge&logo=raspberry-pi&logoColor=white" alt="Raspberry Pi" />
+                <img src="https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white" alt="STM32" />
             </div>
         </div>
     </section>
